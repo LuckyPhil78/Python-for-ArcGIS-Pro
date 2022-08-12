@@ -1,0 +1,4 @@
+﻿for field in arcpy.ListFields('AlamedaContraCostaCounty_RaceHispanic_BlockGroup'):     print("{0} is a {1} field type".format(field.name,field.type))
+projectGDB = r"C:\PythonBook\Chapter12\Chapter12.gdb"
+projectFolder = "\\".join(projectGDB.split("\\")[:-1])
+projectFolder

@@ -1,0 +1,16 @@
+﻿arcpy.env.workspace = r"C\PythonBook\Chapter2"
+wksp = arcpy.ListWorkspaces()
+wksp
+print(wksp)
+arcpy.env.workspace
+wksp = arcpy.ListWorkspaces()
+wksp
+print(wksp)
+wksp = r"C:\PythonBook\Chapter2"
+arcpy.env.workspace = r"C:\PythonBook\Chapter2"
+wksp = arcpy.ListWorkspaces()
+wkps
+wksp
+arcpy.env.workspace = r"C:\PythonBook\Chapter2"
+wksp = arcpy.ListWorkspaces()
+wksp
